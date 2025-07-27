@@ -4,7 +4,7 @@ import { histories } from '../data/histories.js'
 import BookPage from '../components/BookPage.vue'
 
 const totalPages = histories.reduce((acc, h) => acc + h.pages.length, 0)
-const currentPage = ref(0)
+const currentPage = ref(-1) // Começa na capa
 
 function getHistoryByPage(page) {
   let count = 0
@@ -30,10 +30,19 @@ const currentTitle = computed(() => {
 })
 
 function nextPage() {
-  if (currentPage.value < totalPages - 1) currentPage.value++
+  if (currentPage.value === -1) {
+    currentPage.value = 0
+  } else if (currentPage.value < totalPages - 1) {
+    currentPage.value++
+  }
 }
+
 function prevPage() {
-  if (currentPage.value > 0) currentPage.value--
+  if (currentPage.value === 0) {
+    currentPage.value = -1
+  } else if (currentPage.value > 0) {
+    currentPage.value--
+  }
 }
 
 const showIndex = ref(false)
@@ -60,23 +69,9 @@ function onClickOutside(event) {
   }
 }
 
-onMounted(() => {
-  document.addEventListener('click', onClickOutside)
-  // Inicializa tema baseado no localStorage
-  if (process.client) {
-    const saved = localStorage.getItem('darkMode')
-    darkMode.value = saved === 'true'
-  }
-})
-
-onBeforeUnmount(() => {
-  document.removeEventListener('click', onClickOutside)
-})
-
 // Dark mode toggle
 const darkMode = ref(false)
 
-// Sincroniza classe dark no <html> sempre que mudar darkMode
 watch(darkMode, (val) => {
   if (process.client) {
     if (val) {
@@ -88,18 +83,33 @@ watch(darkMode, (val) => {
     }
   }
 })
+
+onMounted(() => {
+  document.addEventListener('click', onClickOutside)
+  if (process.client) {
+    const saved = localStorage.getItem('darkMode')
+    darkMode.value = saved === 'true'
+  }
+})
+
+onBeforeUnmount(() => {
+  document.removeEventListener('click', onClickOutside)
+})
 </script>
 
 <template>
-  <div class="min-h-screen bg-white text-black dark:bg-gray-900 dark:text-white flex flex-col p-4 relative">
+  <div class="min-h-screen bg-white text-black dark:bg-gray-900 dark:text-white flex flex-col p-4 relative items-center">
 
     <!-- Página e título -->
     <div
-        class="text-gray-700 dark:text-gray-300 font-semibold max-w-xs
-         relative top-4 left-0
-         sm:static sm:mb-4"
+        class="text-gray-700 dark:text-gray-300 font-semibold  relative mr-auto top-4 sm:mb-4"
     >
-      <div>Página: {{ currentPage + 1 }} / {{ totalPages }}</div>
+      <div v-if="currentPage >= 0">
+        Página: {{ currentPage + 1 }} / {{ totalPages }}
+      </div>
+      <div v-else>
+        Manual Dos Ilementos
+      </div>
       <div
           :class="{
           'block mt-1 text-xl break-words': currentTitle.length > 22,
@@ -113,12 +123,7 @@ watch(darkMode, (val) => {
     <!-- Switch tema -->
     <div class="absolute top-4 right-24 flex items-center space-x-2 select-none">
       <label for="dark-toggle" class="text-gray-700 dark:text-gray-300 font-semibold cursor-pointer">Tema</label>
-      <input
-          type="checkbox"
-          id="dark-toggle"
-          class="cursor-pointer"
-          v-model="darkMode"
-      />
+      <input type="checkbox" id="dark-toggle" class="cursor-pointer" v-model="darkMode" />
     </div>
 
     <!-- Botão índice -->
@@ -154,21 +159,36 @@ watch(darkMode, (val) => {
       </div>
     </transition>
 
-    <!-- Componente livro -->
+    <!-- Capa com botões de navegação -->
+    <div v-if="currentPage === -1" class="mt-16 w-full max-w-3xl relative">
+      <img src="../capa.png" alt="Capa" class="w-full rounded shadow" />
+
+      <!-- Botão invisível para avançar -->
+      <button
+          @click="nextPage"
+          class="absolute top-0 right-0 h-full w-1/2 opacity-10 hover:opacity-20 focus:outline-none"
+          aria-label="Avançar da capa"
+      ></button>
+    </div>
+
+    <!-- Página do livro -->
     <BookPage
+        v-else
         :content="currentContent"
         @next="nextPage"
         @prev="prevPage"
-        class=" mt-16 w-full max-w-3xl bg-white dark:bg-gray-800 dark:text-white rounded shadow p-6"
+        class="mt-16 w-full max-w-3xl bg-white dark:bg-gray-800 dark:text-white rounded shadow p-6"
     />
   </div>
 </template>
 
 <style scoped>
-.fade-enter-active, .fade-leave-active {
+.fade-enter-active,
+.fade-leave-active {
   transition: opacity 0.2s;
 }
-.fade-enter-from, .fade-leave-to {
+.fade-enter-from,
+.fade-leave-to {
   opacity: 0;
 }
 </style>
