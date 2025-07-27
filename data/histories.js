@@ -1,5 +1,4 @@
-// chapter.js
-export default [
+export const histories = [
     {
         title: 'Tenda da Observação ',
         pages: [
