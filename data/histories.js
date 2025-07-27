@@ -35,5 +35,34 @@ export const histories = [
             'E não poucas vidas se entristeceram por causa desta obra vã, e houve lamento entre os parentes, e desprezo entre os vizinhos.\n' +
             'Pois a loucura dos ímpios não se esconde por muito tempo, e ainda que seja de noite, o Senhor vê.',
         ]
+    },
+    {
+        title: 'A gula do Ancião Temente ',
+        pages: [
+            'E sucedeu, segundo o que se contava entre o povo, que havia um ancião da igreja, homem respeitado entre os fiéis, sábio nas contas e versado em matemática, pai de muitos filhos e frequentador assíduo da casa do Senhor.\n' +
+            '\n' +
+            'E era seu costume, dizia ele, retirar-se para o mato da Gandra, para ali corrigir os testes dos seus alunos, pois dizia: “Em minha casa há demasiado clamor, e não posso concentrar-me.”\n' +
+            '\n' +
+            'E todos criam na sua palavra, pois o julgavam homem justo, temente a Deus e zeloso da educação.\n' +
+            '\n' +
+            'Ora, aconteceu certo dia que, estando ele nesse lugar apartado, foi acometido por um grupo de homens de má fama, os quais o levaram consigo.Mas não lhe fizeram dano, nem feriram sua carne, e ao fim o deixaram ir em paz.\n' +
+            '\n' +
+            'E o povo condoeu-se por ele, e muitos disseram: “Vede o servo do Senhor, como foi provado!”\n' +
+            '\n' +
+            'Contudo, passados dias, foi-me chegada nova por intermédio de um oficial da lei — varão que anda armado com autoridade —, e o que me disse foi motivo de inquietação.\n' +
+            '\n' +
+            'Pois, ao inspeccionarem o lugar onde o ancião costumava parar, foi notado que tal recanto era conhecido entre os homens como sítio de fornicação, onde casais se ajuntam em segredo, sem pudor nem aliança.\n' +
+            '\n' +
+            'E murmurava-se que, dentro de um certo carro estacionado entre os arbustos, foram vistos binóculos e um pacote de lenços, e outros objectos que não condizem com o labor do ensino.\n' +
+            '\n' +
+            'E alguns, ponderando estas coisas em seus corações, começaram a dizer entre si:“Porventura buscava ele o silêncio... ou algo mais?”\n' +
+            '\n' +
+            'Mas nada foi provado, e nenhuma acusação se levantou;e o ancião continuou no meio do povo, como dantes, com aparência de piedade e voz de sabedoria.\n' +
+            '\n' +
+            'Todavia, aqueles que atentam para os sinais souberam que há véus que escondem intenções, e mantos que cobrem desejos não ditos.'
+
+
+        ]
     }
+
 ]
