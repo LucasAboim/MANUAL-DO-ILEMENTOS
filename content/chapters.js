@@ -1,3 +1,4 @@
+// chapter.js
 export default [
     {
         title: 'Tenda da Observação ',
@@ -9,7 +10,6 @@ export default [
             'E viram-nas, e desejaram-nas em seus corações; e riram entre si, e não se envergonharam.\n' +
             'E fizeram da tenda um lugar de escárnio e de tolice, e alguns chamaram-na também a Tenda do Toque, por causa da corrupção que nela habitava.\n' +
             'E não sabiam que o olho do Senhor tudo vê, e que os segredos das trevas não lhe são ocultos.',
-            ''
         ]
     },
     {
@@ -35,7 +35,6 @@ export default [
             '\n' +
             'E não poucas vidas se entristeceram por causa desta obra vã, e houve lamento entre os parentes, e desprezo entre os vizinhos.\n' +
             'Pois a loucura dos ímpios não se esconde por muito tempo, e ainda que seja de noite, o Senhor vê.',
-            ''
         ]
     }
 ]

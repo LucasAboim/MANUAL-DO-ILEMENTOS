@@ -1,5 +1,8 @@
 <script setup>
 import chapters from '~/content/chapters.js'
+import { defineEmits } from 'vue'
+
+const emit = defineEmits(['select-page'])
 </script>
 
 <template>
@@ -7,6 +10,7 @@ import chapters from '~/content/chapters.js'
     <button
         v-for="(chapter, i) in chapters"
         :key="i"
+        @click="$emit('select-page', chapter.startPage)"
         class="bg-white text-black border px-4 py-2 rounded hover:bg-gray-200"
     >
       {{ chapter.title }}
