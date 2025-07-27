@@ -1,6 +1,6 @@
 <template>
   <div
-      class="relative w-full max-w-3xl mx-auto bg-white shadow-lg rounded-md p-8 min-h-[400px] flex flex-col justify-center book-page"
+      class="relative w-full max-w-3xl mx-auto bg-white shadow-lg rounded-md p-8 flex flex-col justify-center book-page min-h-[auto]"
   >
     <p class="text-lg leading-relaxed whitespace-pre-line">{{ content }}</p>
 

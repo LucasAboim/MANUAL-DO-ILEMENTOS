@@ -91,10 +91,14 @@ watch(darkMode, (val) => {
 </script>
 
 <template>
-  <div class="min-h-screen bg-white text-black dark:bg-gray-900 dark:text-white flex flex-col items-center p-4 relative">
+  <div class="min-h-screen bg-white text-black dark:bg-gray-900 dark:text-white flex flex-col p-4 relative">
 
     <!-- Página e título -->
-    <div class="absolute top-4 left-4 text-gray-700 dark:text-gray-300 font-semibold max-w-xs">
+    <div
+        class="text-gray-700 dark:text-gray-300 font-semibold max-w-xs
+         relative top-4 left-0
+         sm:static sm:mb-4"
+    >
       <div>Página: {{ currentPage + 1 }} / {{ totalPages }}</div>
       <div
           :class="{
@@ -155,7 +159,7 @@ watch(darkMode, (val) => {
         :content="currentContent"
         @next="nextPage"
         @prev="prevPage"
-        class="mt-16 w-full max-w-3xl bg-white dark:bg-gray-800 dark:text-white rounded shadow p-6"
+        class=" mt-16 w-full max-w-3xl bg-white dark:bg-gray-800 dark:text-white rounded shadow p-6"
     />
   </div>
 </template>
