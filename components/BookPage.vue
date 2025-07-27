@@ -1,6 +1,8 @@
 <template>
-  <div class="relative w-full max-w-3xl mx-auto bg-white shadow-lg rounded-md p-8 min-h-[400px] flex flex-col justify-center">
-    <p class="text-gray-900 text-lg leading-relaxed whitespace-pre-line">{{ content }}</p>
+  <div
+      class="relative w-full max-w-3xl mx-auto bg-white shadow-lg rounded-md p-8 min-h-[400px] flex flex-col justify-center book-page"
+  >
+    <p class="text-lg leading-relaxed whitespace-pre-line">{{ content }}</p>
 
     <!-- Botões transparentes em cima do livro -->
     <button
