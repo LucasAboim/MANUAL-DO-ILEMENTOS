@@ -10,19 +10,4 @@ export default defineNuxtConfig({
       tailwindcss(),
     ],
   },
-  build: {
-    transpile: ['@fortawesome/vue-fontawesome', '@vue/compiler-sfc']
-  },
-  modules: ['@pinia/nuxt', 'shadcn-nuxt'],
-  shadcn: {
-    /**
-     * Prefix for all the imported component
-     */
-    prefix: '',
-    /**
-     * Directory that the component lives in.
-     * @default "./components/ui"
-     */
-    componentDir: './components/ui'
-  }
 })
