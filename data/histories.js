@@ -63,6 +63,59 @@ export const histories = [
 
 
         ]
+    },
+    {
+        title: 'O relato do missionário e da carrinha atolada',
+        pages: [
+            'E aconteceu num dia de chuva e frio que um homem, que fazia sua profissão ser missionário, vindo da terra do Brasil, estava com seu grupo chamado Pedras Vivas.\n' +
+            '    E eles cantaram diante do povo dentro da tenda do refeitório, não a tenda do Toque, pois o tempo era ruim e não permitia sair para fora.\n' +
+            '\n' +
+            '    E sucedeu que, ao fim da noite, levantaram-se e tomaram a carrinha para descer o caminho de lama e pedras, pois a chuva caíra abundantemente e o caminho estava difícil.\n' +
+            '    Mas eis que a carrinha atolou-se no meio do mato, e a roda meteu-se numa valeta funda, e não podia avançar.\n' +
+            '\n' +
+            '    Entretanto, no acampamento, o povo já tomava a ceia da noite, com pão seco e leite para seu sustento.\n' +
+            '    E Pombo estava a mamar a sua mulher, e Vítor de Espinho estava a mamar a futura mulher do Pombo.\n' +
+            '\n' +
+            '    E de repente, apareceu do nada um homem cansado, clamando em alta voz, dizendo: “O missionário está com muitos problemas, e seu perigo é grande!”\n' +
+            'E todo o povo se levantou, e houve grande alvoroço e temor entre eles.\n' +
+            '\n' +
+            '    Mas no fim tudo ficou sereno; cada um tomou a mulher do outro, e deitaram-se, e ouviram o hino do Palhal, que fora escrito por um homem cheio de graça.'
+
+
+        ]
+    },
+    {
+        title: 'A Coboiada e o Amansamento',
+        pages: [
+            'E aconteceu que dois jovens, amigos desde a infância, já na flor dos seus dias, trabalhavam no campo de jogos, e espalhavam saibro no Palhal. E eis que, de repente, o chefe da semana, que naquela era governava, levantou a voz, e clamou com ira:“Oh! Caralho, assim não se faz!” — bradou ele, cheio de furor.\n' +
+            '\n' +
+            'Porém veio sobre ele o peso do juízo, e nos dias vindouros faleceu, por causa do pecado que lhe pesava, nas rogas de pragas.Pois os filhos da mocidade andavam sempre na coboiada, e praticavam o amansamento; e ninguém os refreava.\n' +
+            '\n' +
+            'Na mesma época, havia tambem o adepto da confusão, primogenito entre os seus, filho do temente guloso, que nunca lavrou o seu labor; e meio tolo, como era, subiu ao mastro da bandeira. Então o Senhor Fontoura, vendo a sua loucura, irou-se contra ele, e lançou-o ao Escuro, castigo que com frequência aplicava.\n' +
+            '\n' +
+            'E assim passou aquela semana do acampamento, e não houve mais alvoroço por agora.'
+
+
+        ]
+    },
+    {
+        title: 'Parábola do primogênito e da mulher da perdição',
+        pages: [
+            'Ouvi, ó filhos dos homens, a história do primogênito do ancião matemático, que, já na meia-idade, buscou mulher nos caminhos tortuosos da internet, nos fóruns onde a carne é vendida sem pudor.\n' +
+            'E tomou por esposa aquela que encontrou, e dela gerou três filhos, como a semente lançada em terra incerta.\n' +
+            '\n' +
+            'Mas o coração do homem cobiçou outra, e propôs à sua mulher que se abrisse um caminho de poligamia, uma relação em três, como as serpentes que se entrelaçam na sombra.\n' +
+            'Porém a esposa, afligida e quebrantada, abandonou-o, e ele se ajuntou àquela que antes desejara, mulher de má fama e de caminhos escuros.\n' +
+            '\n' +
+            'E foi revelado que ela era prostituta, mulher do domínio das trevas, da terra de Angola, feia aos olhos dos homens e obscura em sua alma.\n' +
+            '\n' +
+            'E assim andou o homem cego, envergonhado e trafulha, vivendo com aquela mulher da perdição, e seus filhos repartidos como pasto de lobos em guarda partilhada.\n' +
+            'Nem um dia lavrou o seu labor, nem ela fez obra justa; e não se sabe de onde tiram o sustento, pois os caminhos do homem são ocultos, e o seu negócio com os minipissas não afastou dele a maldição que pesa sobre ele.\n' +
+            '\n' +
+            'Ai dos que trilham caminhos tortuosos, pois colherão o fruto amargo do malandramento e da desventura.'
+
+
+        ]
     }
 
 ]
