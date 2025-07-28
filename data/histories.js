@@ -125,24 +125,31 @@ export const histories = [
     {
         title: 'O Relato do Filho Mais Novo e da Mulher do Campo',
         pages: [
-            'E eis que entre três irmãos havia um: o mais novo, filho de um homem das finanças e de uma mulher guardada em casa.\n' +
-            'E esse varão, sendo ainda moço, andou por caminhos de insensatez, e, com seu companheiro de iniquidade, lançou seus pais e avôs à dívida, sem temor nem juízo.\n' +
+            'E eis que entre três irmãos havia um: o mais novo, filho de um homem das finanças e de uma mulher guardada em casa.E esse varão, sendo ainda moço, andou por caminhos de insensatez, e, com seu companheiro de iniquidade, lançou seus pais e avôs à dívida, sem temor nem juízo.\n' +
             '\n' +
-            'Mas passaram-se os anos da loucura e da mansidão, e decidiu o varão tomar para si uma mulher.\n' +
-            'E esta mulher ele a conheceu no lugar chamado Palhal, campo de muitos encontros e de memórias antigas.\n' +
+            'E era ele de fala suave mas de coração enganoso; dizia palavras doces às donzelas, mas seus olhos estavam cheios de adultério.Era dado ao fumo e às mulheres de rosto pintado, e em festas e camas alheias passou muitos dos seus dias.\n' +
             '\n' +
-            'Filha era ela de gente simples do campo, estudou as coisas da terra, pois cursava Biologia, e trabalhava num banco de prata.\n' +
-            'Outrora, porém, era mulher dada ao prazer,com uma tatuagem de um tigre bebé, como a meretriz que não escolhe rosto nem linhagem — pois a todo varão abria os seus caminhos.\n' +
+            'E não buscava sabedoria nem verdade, mas entregava-se a obras vãs e a risos sem fruto.Porventura trabalhou ele com as mãos? Não.Porventura estudou com afinco? Nunca.Antes seguia atrás de meretrizes e se embriagava com vinho barato e promessas vazias.\n' +
             '\n' +
-            'Mas quando conheceu o jovem, já este na sua meia-idade, assentou-se nela um espírito de sossego, e ela parou a sua correria; contudo, ainda fornicavam, e não selaram pacto nem voto diante do altar.\n' +
+            'E visitava, às ocultas, os quartos das filhas de homens simples, e deixava nelas lembranças sem nome.E ainda que não tivesse casa, agia como senhor; e ainda que não tivesse herança, gastava como filho de reis.\n' +
             '\n' +
-            'E sucedeu certo dia que a mulher o convidou à casa onde dizia estudar, mas poucos estudos ali se praticavam.\n' +
-            'E preparou-lhe uma lasanha, obra das suas mãos, e com tal prato ganhou o seu corpo — e logo o jovem a cobriu.\n' +
+            'Mas passaram-se os anos da loucura e da mansidão, e decidiu o varão tomar para si uma mulher.E esta mulher ele a conheceu no lugar chamado Palhal, campo de muitos encontros e de memórias antigas.\n' +
+            '\n' +
+            'Filha era ela de gente simples do campo, estudou as coisas da terra, pois cursava Biologia, e trabalhava num banco de prata.Outrora, porém, era mulher dada ao prazer, com uma tatuagem de um tigre bebé, como a meretriz que não escolhe rosto nem linhagem — pois a todo varão abria os seus caminhos.\n' +
+            '\n' +
+            'Tivera já muitos nomes em sua lista, e suas mãos conheceram muitos rostos e pissas.E andava de corpo leve e olhar solto, e a muitos deu parte de si, sem lembrar-se dos nomes nem dos dias.\n' +
+            '\n' +
+            'Mas quando conheceu o jovem, já este na sua meia-idade, assentou-se nela um espírito de sossego, e ela parou a sua correria;Contudo, ainda fornicavam, e não selaram pacto nem voto diante do altar.\n' +
+            '\n' +
+            'E sucedeu certo dia que a mulher o convidou à casa onde dizia estudar, mas poucos estudos ali se praticavam.E preparou-lhe uma lasanha, obra das suas mãos, e com tal prato ganhou o seu corpo — e logo o jovem a cobriu.\n' +
+            '\n' +
+            'E aconteceu que certo dia essas duas almas decidiram gravar um dos seus atos impuros,e o vídeo, como seta lançada sem destino, chegou à página da universidade, para que todos pudessem ver a sua fornicação.Poucos souberam — e bem-aventurados os que não viram — mas os que viram, arrependeram-se de ter aberto os seus olhos.\n' +
+            '\n' +
+            'Este casal, porém, vergonha nenhuma teve; e não houve neles espírito de arrependimento, nem sequer rubor no rosto.Antes continuaram a fornicar, como nos dias de Noé, até ao dia de hoje.\n' +
             '\n' +
             'E desde então fornicaram sem cessar, sem aliança e sem bênção, até que se casaram, e fizeram dois filhos, uma gata, e uma casa de pau onde praticavam culinária.\n' +
             '\n' +
-            'E agora vivem como santos, cheios de graça aos olhos dos homens, mas os vizinhos não sabem o seu passado.\n' +
-            'E os filhos cresceram sem temor nem correção, sendo de raça fraca e sem firmeza no espírito; pois do sangue torto não brota cepa forte, e não há muito que esperar de tal semente.'
+            'E agora vivem como santos, cheios de graça aos olhos dos homens, mas os vizinhos não sabem o seu passado.E os filhos cresceram sem temor nem correção, sendo de raça fraca e sem firmeza no espírito;pois do sangue torto não brota cepa forte, e não há muito que esperar de tal semente.'
 
 
         ]
